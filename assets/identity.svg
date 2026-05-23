@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="800" height="200">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="margin: 0; padding: 0; height: 100%; box-sizing: border-box;">
+      <style>
+        @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&amp;family=IBM+Plex+Sans:wght@400;600&amp;family=IBM+Plex+Serif:wght@700&amp;display=swap');
+        
+        :root {
+          --char-black: #0F0F0B;
+          --slate-stone: #2A2926;
+          --brushed-silver: #D4D1C8;
+          --aged-parchment: #EBE7E1;
+          --amber-hearth: #C4843C;
+          --sage-whisper: #6B7D6F;
+        }
+
+        body {
+          background-color: var(--char-black);
+          margin: 0;
+          padding: 1.5rem;
+          height: 100%;
+          box-sizing: border-box;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+        }
+
+        .identity {
+          font-family: 'IBM Plex Serif', serif;
+          font-weight: 700;
+          font-size: 36px;
+          color: var(--aged-parchment);
+          text-transform: uppercase;
+          letter-spacing: 0.05em;
+          margin: 0 0 8px 0;
+        }
+
+        .role {
+          font-family: 'IBM Plex Sans', sans-serif;
+          font-weight: 400;
+          font-size: 14px;
+          color: var(--brushed-silver);
+          margin: 0 0 24px 0;
+        }
+
+        .divider {
+          height: 0.5px;
+          background-color: var(--sage-whisper);
+          width: 100%;
+          margin: 0 0 24px 0;
+        }
+
+        .quick-facts {
+          font-family: 'IBM Plex Sans', sans-serif;
+          font-weight: 400;
+          font-size: 14px;
+          color: var(--brushed-silver);
+          margin: 0;
+        }
+
+        .accent {
+          color: var(--amber-hearth);
+        }
+      </style>
+      
+      <body>
+        <h1 class="identity">DIVYANSH</h1>
+        <p class="role">Creative Technologist • paprlabs.studio • B.Tech CSE (AI/ML)</p>
+        
+        <div class="divider"></div>
+        
+        <p class="quick-facts">Building systems with density that serves meaning. <span class="accent">|</span> Currently exploring Layered Brutalism &amp; Agentic AI</p>
+      </body>
+    </div>
+  </foreignObject>
+</svg>

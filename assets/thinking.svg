@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 240" width="800" height="240">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="margin: 0; padding: 0; height: 100%; box-sizing: border-box;">
+      <style>
+        @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&amp;display=swap');
+        
+        :root {
+          --char-black: #0F0F0B;
+          --slate-stone: #2A2926;
+          --brushed-silver: #D4D1C8;
+          --amber-hearth: #C4843C;
+        }
+
+        body {
+          background-color: var(--char-black);
+          margin: 0;
+          padding: 0 1.5rem 1.5rem 1.5rem;
+          height: 100%;
+          box-sizing: border-box;
+          display: flex;
+          flex-direction: column;
+          gap: 1.5rem;
+        }
+
+        .topic {
+          font-family: 'IBM Plex Sans', sans-serif;
+          font-size: 14px;
+          line-height: 1.7;
+          color: var(--brushed-silver);
+          margin: 0;
+          max-width: 65ch;
+        }
+
+        .topic-title {
+          font-weight: 600;
+          color: var(--amber-hearth);
+        }
+      </style>
+      
+      <body>
+        <p class="topic">
+          <span class="topic-title">Multi-Agent Orchestration:</span> Exploring patterns where specialized subagents handle execution logic while a central planner maintains high-level context, avoiding context window degradation in long-running tasks.
+        </p>
+
+        <p class="topic">
+          <span class="topic-title">Layered Brutalism in UI:</span> Moving away from sterile minimal design towards information-dense, intentional layouts. Every visual element must carry information. No decoration that doesn't work.
+        </p>
+
+        <p class="topic">
+          <span class="topic-title">Generative SEO:</span> Analyzing how search engines synthesize information rather than just indexing it, and optimizing content structure for LLM consumption.
+        </p>
+      </body>
+    </div>
+  </foreignObject>
+</svg>

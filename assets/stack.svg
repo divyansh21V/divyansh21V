@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 240" width="800" height="240">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="margin: 0; padding: 0; height: 100%; box-sizing: border-box;">
+      <style>
+        @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&amp;family=IBM+Plex+Sans:wght@400;600&amp;display=swap');
+        
+        :root {
+          --char-black: #0F0F0B;
+          --slate-stone: #2A2926;
+          --brushed-silver: #D4D1C8;
+          --sage-whisper: #6B7D6F;
+        }
+
+        body {
+          background-color: var(--char-black);
+          margin: 0;
+          padding: 0 1.5rem 1.5rem 1.5rem;
+          height: 100%;
+          box-sizing: border-box;
+          display: flex;
+          flex-direction: column;
+          gap: 1.5rem;
+        }
+
+        .row {
+          display: flex;
+          flex-direction: column;
+          gap: 8px;
+        }
+
+        .label {
+          font-family: 'IBM Plex Sans', sans-serif;
+          font-weight: 600;
+          font-size: 14px;
+          color: var(--brushed-silver);
+          margin: 0;
+        }
+
+        .tags {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 8px;
+        }
+
+        .tag {
+          font-family: 'IBM Plex Mono', monospace;
+          font-size: 11px;
+          background-color: var(--slate-stone);
+          color: var(--sage-whisper);
+          padding: 4px 8px;
+          border-radius: 2px;
+          letter-spacing: 0.02em;
+        }
+
+        .list {
+          font-family: 'IBM Plex Sans', sans-serif;
+          font-size: 14px;
+          color: var(--brushed-silver);
+          margin: 0;
+        }
+      </style>
+      
+      <body>
+        <div class="row">
+          <p class="label">Technical</p>
+          <div class="tags">
+            <span class="tag">TypeScript</span>
+            <span class="tag">Python</span>
+            <span class="tag">Rust</span>
+            <span class="tag">React</span>
+            <span class="tag">TensorFlow</span>
+            <span class="tag">Figma</span>
+            <span class="tag">SVG</span>
+          </div>
+        </div>
+
+        <div class="row">
+          <p class="label">Influences</p>
+          <p class="list">Dieter Rams, Edward Tufte, Wired (1994-2000), The Renaissance Studiolo</p>
+        </div>
+
+        <div class="row">
+          <p class="label">Reading</p>
+          <p class="list">"The Visual Display of Quantitative Information", "Understanding Media"</p>
+        </div>
+      </body>
+    </div>
+  </foreignObject>
+</svg>

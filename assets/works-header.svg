@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 60" width="800" height="60">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="margin: 0; padding: 0; height: 100%; box-sizing: border-box;">
+      <style>
+        @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@700&amp;display=swap');
+        
+        :root {
+          --char-black: #0F0F0B;
+          --amber-hearth: #C4843C;
+        }
+
+        body {
+          background-color: var(--char-black);
+          margin: 0;
+          padding: 1.5rem;
+          height: 100%;
+          box-sizing: border-box;
+          display: flex;
+          align-items: center;
+        }
+
+        .section-header {
+          font-family: 'IBM Plex Serif', serif;
+          font-weight: 700;
+          font-size: 18px;
+          color: var(--amber-hearth);
+          display: flex;
+          align-items: center;
+          width: 100%;
+          text-transform: lowercase;
+        }
+        
+        .section-header::first-letter {
+            text-transform: uppercase;
+        }
+
+        .rule {
+          flex-grow: 1;
+          height: 0.5px;
+          background-color: var(--amber-hearth);
+        }
+
+        .text {
+          margin: 0 16px;
+        }
+      </style>
+      
+      <body>
+        <div class="section-header">
+          <div class="rule"></div>
+          <span class="text">Selected Works</span>
+          <div class="rule"></div>
+        </div>
+      </body>
+    </div>
+  </foreignObject>
+</svg>

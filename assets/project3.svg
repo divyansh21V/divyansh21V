@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 140" width="800" height="140">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="margin: 0; padding: 0; height: 100%; box-sizing: border-box;">
+      <style>
+        @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&amp;family=IBM+Plex+Sans:wght@400;600&amp;display=swap');
+        
+        :root {
+          --char-black: #0F0F0B;
+          --slate-stone: #2A2926;
+          --brushed-silver: #D4D1C8;
+          --amber-hearth: #C4843C;
+          --sage-whisper: #6B7D6F;
+        }
+
+        body {
+          background-color: var(--char-black);
+          margin: 0;
+          padding: 0 1.5rem 1.5rem 1.5rem;
+          height: 100%;
+          box-sizing: border-box;
+          display: flex;
+          flex-direction: column;
+        }
+
+        .project-card {
+          border-left: 2px solid var(--amber-hearth);
+          padding-left: 1.5rem;
+          position: relative;
+        }
+
+        .rule-top {
+          height: 0.5px;
+          background-color: var(--amber-hearth);
+          width: 100%;
+          margin-bottom: 12px;
+        }
+
+        .rule-bottom {
+          height: 0.5px;
+          background-color: var(--sage-whisper);
+          width: 100%;
+          margin-top: 12px;
+        }
+
+        .title {
+          font-family: 'IBM Plex Sans', sans-serif;
+          font-weight: 600;
+          font-size: 16px;
+          color: var(--brushed-silver);
+          margin: 0 0 4px 0;
+        }
+
+        .desc {
+          font-family: 'IBM Plex Sans', sans-serif;
+          font-weight: 400;
+          font-size: 14px;
+          color: var(--brushed-silver);
+          margin: 0 0 12px 0;
+        }
+
+        .meta {
+          font-family: 'IBM Plex Mono', monospace;
+          font-weight: 400;
+          font-size: 11px;
+          color: var(--sage-whisper);
+          display: flex;
+          align-items: center;
+          gap: 12px;
+          margin: 0;
+        }
+
+        .badge {
+          background-color: var(--slate-stone);
+          padding: 4px 8px;
+          border-radius: 2px;
+        }
+        
+        .link {
+          color: var(--amber-hearth);
+        }
+      </style>
+      
+      <body>
+        <div class="project-card">
+          <div class="rule-top"></div>
+          <p class="title">Generative Engine Optimization</p>
+          <p class="desc">Research paper analyzing search patterns and information retrieval in AI engines.</p>
+          <div class="meta">
+            <span>2025.04</span>
+            <span class="badge">Research</span>
+            <span class="link">Read Paper →</span>
+          </div>
+          <div class="rule-bottom"></div>
+        </div>
+      </body>
+    </div>
+  </foreignObject>
+</svg>
